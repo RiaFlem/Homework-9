@@ -13,3 +13,23 @@
 // }
 // NToOne (8, 1);
 
+// Задача 66: Задайте значения M и N. Напишите программу, которая найдёт сумму натуральных элементов в промежутке от M до N.
+// M = 1; N = 15 -> 120
+// M = 4; N = 8. -> 30
+
+// int SumOfMToN (int n, int m)
+// {
+//     if (m != n)
+//     {
+//         if (n > m)
+//         {
+//             return SumOfMToN (n - 1, m) + n;
+//         }
+//         else
+//         {
+//             return SumOfMToN (n, m - 1) + m;
+//         }
+//     }
+//     else return m;
+// }
+// System.Console.Write (SumOfMToN(1, 15));
